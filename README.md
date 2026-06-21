@@ -98,4 +98,4 @@ vai pedir permissão de localização — é só aceitar.
 
 ## Autor
 
-Nome completo: _[preencher]_
+Nome completo: Ygor Sampaio
