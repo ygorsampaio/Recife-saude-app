@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Saude Recife",
+    "slug": "recife-saude-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#0B6E4F"
+    },
+    "ios": {
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Usamos sua localização para salvar o check-in na unidade de saúde."
+      }
+    },
+    "android": {
+      "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"]
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Usamos sua localização para salvar o check-in na unidade de saúde."
+        }
+      ]
+    ]
+  }
+}
